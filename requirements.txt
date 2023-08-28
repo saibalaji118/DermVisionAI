@@ -1,0 +1,7 @@
+langchain
+openai
+streamlit
+clarifai
+duckduckgo-search
+easyocr
+pillow 
