@@ -58,15 +58,15 @@ def extract_text_using_easyocr(image_path, language='en'):
         return str(e)
     
 clarifai_llm = Clarifai(
-    pat='4d72f91e513247889ee7c9130d28f674', user_id= "meta", app_id="Llama-2", model_id = "llama2-70b-chat"
+    pat=pat_key, user_id= "meta", app_id="Llama-2", model_id = "llama2-70b-chat"
 )
 
 clarifai_llm_2=Clarifai(
-    pat='4d72f91e513247889ee7c9130d28f674', user_id= "clarifai", app_id="ml", model_id = "llama2-13b-chat-alternative"
+    pat=pat_key, user_id= "clarifai", app_id="ml", model_id = "llama2-13b-chat-alternative"
 )
 
 clarifai_openai= Clarifai(
-    pat='4d72f91e513247889ee7c9130d28f674', user_id= "openai", app_id="chat-completion", model_id = "GPT-4"
+    pat=pat_key, user_id= "openai", app_id="chat-completion", model_id = "GPT-4"
 )
 
 template = """
