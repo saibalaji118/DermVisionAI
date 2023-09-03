@@ -11,7 +11,6 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 
 import re
 import openai
-from langchain.output_parsers import StructuredOutputParser, ResponseSchema
 from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.tools import BaseTool
